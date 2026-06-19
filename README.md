@@ -5,6 +5,9 @@
 
 This project addresses the challenge of developing a dashboard using AI/ML techniques to interpolate tropospheric Precipitable Water (PW) content using zenith-wet delay (ZWD) from GNSS (Global Navigation Satellite System) observations.
 
+### Dataset Link
+https://cds.climate.copernicus.eu/datasets?q=ZTD+estimates+from+GNSS+network&limit=30&sortby=update
+
 ### Background
 The troposphere is the lowest layer of Earth's atmosphere and plays a crucial role in weather patterns. It contains most of the atmospheric water vapor (PW), which significantly affects the transmission of GNSS signals. GNSS reference stations, by capturing signals from multiple satellites, can estimate the tropospheric wet content. If the precise coordinates of both the reference station and satellites are known, the GNSS station can compute the zenith-wet delay (ZWD). The ZWD, measured along the line-of-sight of GNSS signals, provides valuable information about the distribution of PW in a region and can be used for weather forecasting and rainfall alerts.
 
