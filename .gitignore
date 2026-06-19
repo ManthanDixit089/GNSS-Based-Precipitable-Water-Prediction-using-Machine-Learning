@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.venv
+venv/
+ENV/
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Node/Next.js
+node_modules/
+.next/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data/Models
+*.joblib
+*.h5
+*.csv
+*.json
+*.log
+*.sqlite3
+*.db
+
+# Ignore large raw data, but keep sample
+Data/*.csv
+!Data/sep_to_oct_sample_clean.csv
+!Data/sep_to_oct_sample_2_clean.csv
+
+# Ignore secrets
+.env
+.env.*
+
+# Ignore frontend build
+frontend/.next/
+frontend/node_modules/
+
+# Ignore backend build
+backend/__pycache__/
+backend/*.pyc
+
+# Ignore attempts cache
+Attempts/
+
+data.py
