@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GNSS Tropospheric Precipitable Water Interpolation Dashboard
 
 ## Problem Statement
@@ -78,3 +79,7 @@ This approach ensures accurate, explainable, and interactive interpolation of tr
 ---
 
 For questions or contributions, please open an issue or pull request.
+=======
+# GNSS-Based-Precipitable-Water-Prediction-using-Machine-Learning
+Developed a machine learning framework for predicting atmospheric Precipitable Water (PW) using GNSS-derived Zenith Total Delay (ZTD), spatial coordinates, and temporal features. Implemented Random Forest, XGBoost, time-series forecasting, and spatial interpolation techniques for meteorological analysis.
+>>>>>>> 79076da75373a4e90106ea2d20822e4084b9daf8
